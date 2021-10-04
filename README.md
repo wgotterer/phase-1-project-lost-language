@@ -12,6 +12,8 @@ The API used will be [Picsum](https://picsum.photos). It will be used to grab a 
 
 ### Expected Challenges
 
+Using CSS to effectively style
+
 ### How the Project Requirements Are Being Met
 
 *Your app must be a HTML/CSS/JS frontend that accesses data from a public API. All interactions between the client and the API should be handled asynchronously and use JSON as the communication format.*

@@ -2,7 +2,7 @@
 
 const init = () => {
     
-    
+    ///fetch random picture
     fetch(`https://picsum.photos/v2/list?page=${randomNumber(1, 10)}&limit=100`)
     .then(resp => resp.json())
     .then(data => {
@@ -11,13 +11,12 @@ const init = () => {
 }
 
 
-function renderPic(data){ ///render
+function renderPic(data){ ///render Picture
 
    const imageContainer = document.getElementById("image_container")
    const picBttn = document.getElementById("random_pic_btn")
    const randomImg = document.createElement("img")
 
-   
     picBttn.addEventListener("click", () => {
         randomImg.src = data[randomNumber(0, 99)]["download_url"];
         randomImg.height = 200;
@@ -36,6 +35,28 @@ submitSentence.addEventListener("submit", createPicBox)
 // and an opportunity to write and post a correct sentence
 function createPicBox(e){ 
     e.preventDefault();
+    // copies image but need to not stop user from submitting the same pic twice
+    const cardContainer = document.querySelector(".pic_container")
+    const grabRandomPic = document.querySelector("#image_container img")
+    const newImage = document.createElement("img")
+    newImage.className = ("new_image")
+    newImage.src = grabRandomPic.src
+    newImage.height  = 200
+    newImage.width = 200
+    cardContainer.appendChild(newImage)
+    ///copies the two sentences and appends the to card container
+    const targetLang = document.querySelector("#targetlang")
+    const targetLangSentence = document.querySelector(".target_lang_sentence")
+    targetLangSentence.textContent = targetLang.value
+    const firstLang = document.querySelector("#firstlang")
+    const firstLangSentence = document.querySelector(".first_lang_sentence")
+    firstLangSentence.textContent = firstLang.value
+    
+    
+    
+
+
+    
 
 }
 

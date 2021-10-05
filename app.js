@@ -51,14 +51,39 @@ function createPicBox(e){
     const firstLang = document.querySelector("#firstlang")
     const firstLangSentence = document.querySelector(".first_lang_sentence")
     firstLangSentence.textContent = firstLang.value
-    
-    
-    
+    ///creates a thumbs  up and thumbs down  
+    newImgContainer = document.getElementById("sentence_img_container")
+    const thumbsUp = document.createElement("button")
+    thumbsUp.className = "thumbs_up"
+    thumbsUp.textContent = "👍"
+    newImgContainer.appendChild(thumbsUp)
 
+    const thumbsDown = document.createElement("button")
+    thumbsDown.className = "thumbs_down"
+    thumbsDown.textContent = "👎"
+    newImgContainer.appendChild(thumbsDown)
 
-    
+    let thumbsUpNum = document.createElement("h5")
+    thumbsUp.appendChild(thumbsUpNum)
+
+   thumbsUp.addEventListener("click", () => {
+      thumbsUpNum.textContent = +thumbsUpNum.textContent + 1
+
+   })
+
+   let thumbsDownNum = document.createElement("h5")
+   thumbsDown.appendChild(thumbsDownNum)
+
+   thumbsDown.addEventListener("click", () => {
+    thumbsDownNum.textContent = +thumbsDownNum.textContent + 1
+
+ })
+
+  
+   
 
 }
+
 
 
 function randomNumber(min, max) {

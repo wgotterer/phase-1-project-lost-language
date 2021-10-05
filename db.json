@@ -1,10 +1,132 @@
-{ 
-   "card" : 
+{
+  "translations": [
     {
-      "id": "" ,
-      "name": "",
-      "img": "",
-      "correct": "",
-      "incorrect": ""
+      "imageId": "699",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 1
+    },
+    {
+      "imageId": "349",
+      "target": "Test",
+      "first": "Testing",
+      "likes": 1,
+      "dislikes": 0,
+      "id": 2
+    },
+    {
+      "imageId": "349",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 3
+    },
+    {
+      "imageId": "352",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 4
+    },
+    {
+      "imageId": "352",
+      "target": "Test",
+      "first": "Testing",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 5
+    },
+    {
+      "imageId": "1070",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 6
+    },
+    {
+      "imageId": "1070",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 7
+    },
+    {
+      "imageId": "249",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 8
+    },
+    {
+      "imageId": "188",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 9
+    },
+    {
+      "imageId": "76",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 5,
+      "dislikes": 0,
+      "id": 10
+    },
+    {
+      "imageId": "735",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 3,
+      "dislikes": 0,
+      "id": 11
+    },
+    {
+      "imageId": "326",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 9,
+      "dislikes": 0,
+      "id": 12
+    },
+    {
+      "imageId": "426",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 13
+    },
+    {
+      "imageId": "269",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 4,
+      "dislikes": 0,
+      "id": 14
+    },
+    {
+      "imageId": "465",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 4,
+      "dislikes": 6,
+      "id": 15
+    },
+    {
+      "imageId": "305",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "likes": 7,
+      "dislikes": 5,
+      "id": 16
     }
+  ]
 }

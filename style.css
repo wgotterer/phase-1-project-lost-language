@@ -57,6 +57,11 @@ header {
     vertical-align: top;
 }
 
+.translation-image {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 .translation-submissions {
     padding: 5px;
     flex-grow: 1;
@@ -64,6 +69,7 @@ header {
 
 .translation-image {
     box-sizing: border-box;
+    padding: 5px;
 }
 
 .translation-image img {
@@ -80,7 +86,7 @@ header {
 
 .language-label {
     background-color: rgb(195, 240, 184);
-    border-radius: 30%;
+    border-radius: 20% / 50%;
     padding: 1px 5px;
     margin-right: 5px;
 }

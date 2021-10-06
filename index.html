@@ -31,13 +31,27 @@
         <section id="section-form">
             <div id="form-container">
                 <div id="image_container">
-                    
                 </div>
                 <button id="random_pic_btn">Click Here For A Picture!</button>
                 <form id="sentence_form">
-                    <label for="targetlang">Target Language:</label><br>
+                    <label for="targetlang">Target Language:</label>
+                    <select name= "target_language" id ="target_language">
+                        <option value="English">English</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="French">French</option>
+                        <option value="Italian">Italian</option>
+                    </select>
+                    <br>
                     <input type="text" id="targetlang" name="targetlang" placeholder="Write Target Language Sentence Here"><br>
-                    <label for="firstlang">First Language:</label><br>
+                    <label for="firstlang">First Language:</label>
+                    <select  name = "first_language" id = "first_language">
+                        <option value="English">English</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="French">French</option>
+                        <option value="Italian">Italian</option>
+                    </select>
+            
+                    <br>
                     <input type="text" id="firstlang" name="firstlang" placeholder="Write First Language Sentence Here"><br><br>
                     <input id="submit_sentence" type="submit" value="Submit">
                 </form>

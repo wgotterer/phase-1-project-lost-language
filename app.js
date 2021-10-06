@@ -53,6 +53,8 @@ function handleFormSubmit(e) {
             imageId: form.getAttribute('imageId'),
             target: form.querySelector('#targetlang').value,
             first: form.querySelector('#firstlang').value,
+            targetLanguage: form.querySelector("#target_language").value,
+            firstLanguage: form.querySelector("#first_language").value,
             likes: 0,
             dislikes: 0
         })
@@ -83,7 +85,7 @@ function renderTranslation(translation) {
 
     const targetLanguageLabel = document.createElement('span');
     targetLanguageLabel.className = 'language-label';
-    targetLanguageLabel.textContent = 'en'; // TODO: change to match dropdown value
+    targetLanguageLabel.textContent = translation.targetLanguage;
     
     const targetLanguageSentence = document.createElement('span');
     targetLanguageSentence.textContent = translation.target;
@@ -93,7 +95,7 @@ function renderTranslation(translation) {
 
     const firstLanguageLabel = document.createElement('span');
     firstLanguageLabel.className = 'language-label';
-    firstLanguageLabel.textContent = 'es'; // TODO: change to match dropdown value
+    firstLanguageLabel.textContent = translation.firstLanguage;
     
     const firstLanguageSentence = document.createElement('span');
     firstLanguageSentence.textContent = translation.first;

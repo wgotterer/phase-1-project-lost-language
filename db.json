@@ -1,20 +1,28 @@
 {
   "translations": [
     {
-      "imageId": "906",
-      "target": "There is snow",
-      "first": "Hay nieve",
-      "likes": 2,
+      "imageId": "728",
+      "target": "There is a house",
+      "first": "Hay una casa",
+      "likes": 1,
       "dislikes": 0,
       "id": 1
     },
     {
-      "imageId": "906",
-      "target": "There is snow on the mountain",
-      "first": "Hay nieve en la montana",
+      "imageId": "788",
+      "target": "There sky pretty color water",
+      "first": "El cielo esta bonita",
       "likes": 0,
-      "dislikes": 0,
+      "dislikes": 1,
       "id": 2
+    },
+    {
+      "imageId": "788",
+      "target": "The sky and water are pretty colors",
+      "first": "sdfaff",
+      "likes": 2,
+      "dislikes": 0,
+      "id": 3
     }
   ]
 }

@@ -2,12 +2,9 @@ header {
     text-align: center;
 }
 
-#title {
-
-}
-
-#sub_title {
-
+.logo {
+    max-height: 200px;
+    margin-bottom: 20px;
 }
 
 body {
@@ -37,7 +34,7 @@ body {
 }
 
 #image_container img {
-    max-width: 400px;
+    max-width: 300px;
     max-height: 200px;
 }
 
@@ -128,6 +125,10 @@ body {
     #section-form, #section-translations {
         width: 100%;
         display:block;
+    }
+
+    #form-container {
+        margin-right: 0;
     }
 
     #section-form {

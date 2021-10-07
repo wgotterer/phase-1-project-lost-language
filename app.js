@@ -35,6 +35,7 @@ function setTranslationForm({id, download_url}) {
     const formImage = document.createElement('img');
     formImage.src = download_url;
     imageContainer.replaceChildren(formImage);
+    document.getElementById('targetlang').focus();
 }
 
 const submitSentence = document.getElementById("sentence_form");

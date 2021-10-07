@@ -1,28 +1,76 @@
 {
   "translations": [
     {
+<<<<<<< HEAD
       "imageId": "728",
       "target": "There is a house",
       "first": "Hay una casa",
       "likes": 1,
+=======
+      "imageId": "906",
+      "target": "There is snow",
+      "first": "Hay nieve",
+      "targetLanguage": "English",
+      "firstLanguage": "Spanish",
+      "likes": 2,
+>>>>>>> 6f1044d64d2aff4adff0c43afc10b8a03e536c16
       "dislikes": 0,
       "id": 1
     },
     {
+<<<<<<< HEAD
       "imageId": "788",
       "target": "There sky pretty color water",
       "first": "El cielo esta bonita",
+=======
+      "imageId": "906",
+      "target": "There is snow on the mountain",
+      "first": "Hay nieve en la montana",
+      "targetLanguage": "Italian",
+      "firstLanguage": "Spanish",
+>>>>>>> 6f1044d64d2aff4adff0c43afc10b8a03e536c16
       "likes": 0,
       "dislikes": 1,
       "id": 2
     },
     {
+<<<<<<< HEAD
       "imageId": "788",
       "target": "The sky and water are pretty colors",
       "first": "sdfaff",
       "likes": 2,
       "dislikes": 0,
       "id": 3
+=======
+      "imageId": "362",
+      "target": "Test",
+      "first": "Testing",
+      "targetLanguage": "English",
+      "firstLanguage": "English",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 3
+    },
+    {
+      "imageId": "626",
+      "target": "Test",
+      "first": "Testing",
+      "targetLanguage": "Italian",
+      "firstLanguage": "French",
+      "likes": 4,
+      "dislikes": 2,
+      "id": 4
+    },
+    {
+      "imageId": "626",
+      "target": "The trees are beautiful",
+      "first": "Los arboles son bonitos",
+      "targetLanguage": "English",
+      "firstLanguage": "Spanish",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 5
+>>>>>>> 6f1044d64d2aff4adff0c43afc10b8a03e536c16
     }
   ]
 }

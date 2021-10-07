@@ -10,14 +10,39 @@ header {
 
 }
 
+body {
+    padding:15px;
+}
+
 #form-container {
     position: sticky;
     top: 10px;
+    background-color: rgb(231, 241, 241);
+    margin-right: 50px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #888;
+    padding: 5px;
+    text-align: center;
+}
+
+#sentence_form {
+    text-align: left;
+}
+
+#form-container input {
+    width:100%;
+    box-sizing: border-box;
+    margin: 10px 0;
 }
 
 #image_container img {
     max-width: 400px;
     max-height: 200px;
+}
+
+#random_pic_btn {
+    margin-bottom: 15px;
 }
 
 #section-main {

@@ -1,3 +1,5 @@
+// json-server --watch db.json
+
 const API_BASE_URL = 'https://picsum.photos';
 const LOCAL_BASE_URL = 'http://localhost:3000';
 
@@ -61,7 +63,7 @@ function handleFormSubmit(e) {
         })
     }
 
-    fetch('http://localhost:3000/translations', options)
+    fetch('https://language-app-phase-1.herokuapp.com/translations', options)
         .then(resp => resp.json())
         .catch(error => {
             console.error(error);
@@ -120,7 +122,7 @@ function renderTranslation(translation) {
                 likes: ++translation.likes,
             })
         };
-        fetch(LOCAL_BASE_URL + '/translations/' + translation.id, options)
+        fetch("https://language-app-phase-1.herokuapp.com" + '/translations/' + translation.id, options)
         .then(resp => resp.json())
         .catch(error => {
             console.error(error);
@@ -128,6 +130,7 @@ function renderTranslation(translation) {
         .then(translation => {
             thumbsUpNum.textContent = translation.likes
         })
+        
     })
 
     const thumbsDown = document.createElement("button")
@@ -147,7 +150,7 @@ function renderTranslation(translation) {
                 dislikes: ++translation.dislikes,
             })
         };
-        fetch(LOCAL_BASE_URL + '/translations/' + translation.id, options)
+        fetch("https://language-app-phase-1.herokuapp.com" + '/translations/' + translation.id, options)
         .then(resp => resp.json())
         .catch(error => {
             console.error(error);
@@ -199,6 +202,11 @@ function createPicBox(imageId){
 
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min)) + min
+}
+
+function playUp(){
+    var audio = new Audio("sample.mp3");
+    audio.play();
 }
 
    
